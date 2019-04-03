@@ -5,7 +5,7 @@ This code allows to plot on a map the power of the signal as receveid from a dev
 Two cloud servers are considered: TTN and Loriot
 
 
-## The device ("pytrack"):
+## The device ("pytrack"):
 
 We are suppposing that the devices are LoPy with a Pytrack board (https://pycom.io/)
 
