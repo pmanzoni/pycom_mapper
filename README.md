@@ -7,6 +7,7 @@ Two cloud servers are considered: TTN and Loriot
 
 
 ## The device ("pytrack"):
+
 We are suppposing that the devices are LoPy with a Pytrack board (https://pycom.io/)
 
 ABP authentication is used. In file "pytrack/trackit.py" the constants:
