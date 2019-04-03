@@ -42,5 +42,5 @@ Before starting:
 	- add your own Mapbox `accessToken:`
 	- set refresh period at line: 	`<meta http-equiv="refresh" content="5">`
 
-3) Before starting, delete or store somewhere else files: "datatoplot.js" and "rssival.csv"
+3) Before starting, delete or store somewhere else files: "datatoplot.js" and "rssival.csv".
 Not deleting these files while cause new points to be added to them.
