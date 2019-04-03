@@ -19,7 +19,7 @@ CLOUD_SERVER = "TTN"
 
 LORIOT_BROKER = "_BROKER_ADDRESS_"          # for example: "mqtt.flespi.io"
 # if using https://flespi.com/ as MQTT broker
-#FLESPI_TOKEN  = "r2aoqVPOKJXKfAFrN55q05bm3GpdxTPOLP3ZyGB7foHlMcAp5vDTqF3ibjlw2YbB"
+#FLESPI_TOKEN  = "______"
 
 TTN_BROKER  = "eu.thethings.network"        # probably continent "eu" part should be changed
 TTN_APP_ID  = "______"              # Application EUI
