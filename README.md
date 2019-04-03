@@ -20,14 +20,27 @@ in file "pytrack/trackit.py" the must be configured
 
 
 
-## The visualization part ("plotting"):
+## The visualization part ("plotting" folder code):
 
-1) In file mapplot.py:
+Executing:
+```
+python mapplot.py
+```
+
+two files are generated:
+* `rssival.csv` that store the RSSI values of all the messages received by the cloud server
+* `datatoplot.js` that contains the data to be plotted. This is done automatically loading in a browser either file `webmapplot.html` or `webmapplot_norefresh.html` 
+
+Before starting:
+
+1) In file `mapplot.py`:
 	- set the CLOUD_SERVER variable
+	- then, accordingly to the step above, fill in the other related variables
 
-2) In file webmapplot.html:
+2) In file `webmapplot.html` or `webmapplot_norefresh.html`:
 	- set the variables 'home_lat' and 'home_lng' to the home center of the map
 	- add your own Mapbox 'accessToken:'
 	- set refresh period at line: 	<meta http-equiv="refresh" content="5">
 
-3) Delete  files: "datatoplot.js" and "rssival.csv"
+3) Before starting, delete or store somewhere else files: "datatoplot.js" and "rssival.csv"
+Not deleting these files while cause new points to be added to them.
