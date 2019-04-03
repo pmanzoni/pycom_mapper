@@ -7,7 +7,7 @@ Two cloud servers are considered: TTN and Loriot
 
 ## The data generation part ("pytrack" folder code):
 
-We are suppposing that the devices are [LoPy](https://pycom.io/product/lopy4/) with a [Pytrack board](https://pycom.io/product/pytrack/) (https://pycom.io/)
+We are suppposing that the devices are [LoPy](https://pycom.io/product/lopy4/) with a [Pytrack board](https://pycom.io/product/pytrack/).
 
 ABP authentication is used. To this end, constants:
 ```
