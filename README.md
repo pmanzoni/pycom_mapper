@@ -5,15 +5,18 @@ This code allows to plot on a map the power of the signal as receveid from a dev
 Two cloud servers are considered: TTN and Loriot
 
 
-## The device ("pytrack"):
+## The device ("pytrack" folder code):
 
-We are suppposing that the devices are LoPy with a Pytrack board (https://pycom.io/)
+We are suppposing that the devices are [LoPy](https://pycom.io/product/lopy4/) with a [Pytrack board](https://pycom.io/product/pytrack/) (https://pycom.io/)
 
-ABP authentication is used. In file "pytrack/trackit.py" the constants:
+ABP authentication is used. To this end, constants:
+```
 DEVADDR = '____'
 NWKSKEY = '____'
 APPSKEY = '____'
-must be configured
+```
+
+in file "pytrack/trackit.py" the must be configured
 
 
 
