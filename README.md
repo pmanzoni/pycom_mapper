@@ -5,7 +5,7 @@ This code allows to plot on a map the power of the signal as receveid from a dev
 Two cloud servers are considered: TTN and Loriot
 
 
-## The device ("pytrack" folder code):
+## The data generation part ("pytrack" folder code):
 
 We are suppposing that the devices are [LoPy](https://pycom.io/product/lopy4/) with a [Pytrack board](https://pycom.io/product/pytrack/) (https://pycom.io/)
 
@@ -16,7 +16,7 @@ NWKSKEY = '____'
 APPSKEY = '____'
 ```
 
-in file "pytrack/trackit.py" the must be configured
+in file `pytrack/trackit.py`  must be configured.
 
 
 
